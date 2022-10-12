@@ -1,0 +1,17 @@
+$primary : purple;
+$warning : blue;
+$success : grey;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$jonathan-theme-colors: (
+
+    "cool" : pink,
+    "allen" : cyan )
+    ;
+
+    $theme-colors : map-merge($jonathan-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
